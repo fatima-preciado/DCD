@@ -1,0 +1,45 @@
+# Shell & system history
+.bash_history
+.bash_logout
+.bashrc
+.profile
+.python_history
+.sudo_as_admin_successful
+
+# Editor & tool config
+.viminfo
+.vim/
+.lesshst
+.selected_editor
+.gitconfig
+
+# SSH/credentials
+.ssh/
+.subversion/
+
+# User config/cache
+.cache/
+.config/
+.local/
+.snap/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+dcd-unified/scripts/.venv/
+
+# Logs
+*.log
+
+# Project-specific
+*.sqlite
+*.db
+.env
+
+# Snap package data
+snap/
+
+# Ignore bait files and folders
+dcd-unified/data/*/bait/
